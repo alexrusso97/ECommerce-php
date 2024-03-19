@@ -64,7 +64,7 @@ function generateProductCard($product) {
     $card .= '<p>Quantity: ' . $product->quantity . '</p>';
     $card .= '<button>Add to cart</button>';
     $card .= '</div>';
-
+    echo '<link rel="stylesheet" href="style.css">';
     return $card;
 }
 
